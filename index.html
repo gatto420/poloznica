@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Poloznica</title>
+		 <link rel="stylesheet" type="text/css" href="style.css">
+		 <meta charset="UTF-8"> 
+	</head>
+	<body>
+	<form>
+		<div id="main">
+			<div id="levi">
+				<span class="txt">UPN</span>
+				<div>
+					<div class="txtRED" style="margin-left:4mm">Ime plačnika</div>
+					<input type="text" class="input borderRED">
+				</div>
+				<div>
+					<div class="txtRED" style="margin-left:4mm">Namen / rok plačila</div>
+					<input type="text" class="input borderRED">
+				</div>
+				<div>
+					<div class="txtRED znesek" style="margin-left:4mm">Znesek</div>
+					<div class="EUR leviEUR">EUR<input type="text" class="inputEUR borderRED"></div>
+				</div>
+				<div>
+					<div class="txtRED" style="margin-left:4mm">IBAN prejemnika in BIC banke prejemnika</div>
+					<input style="height:13.5mm" type="text" class="input borderRED">
+				</div>
+				<div>
+					<div class="txtRED" style="margin-left:4mm">Referenca prejemnika</div>
+					<input style="height: 5mm" type="text" class="input borderRED">
+				</div>
+				<div>
+					<div class="txtRED" style="margin-left:4mm">Ime prejemnika</div>
+					<input type="text" class="input borderRED">
+				</div>
+				<div>
+					<div class="txtRED help" style="margin-left:4mm">
+						Potrditev plačila UPN
+					</div>
+				</div>
+			</div>
+			<div id="desnizgoraj">
+				<div class="flt">
+					<div class="crta" style="width:1.85mm"> </div>
+					<div class="placnik">
+						<div class="rotate">PLAČNIK</div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="fltr polje">
+						
+						</div>
+					</div>
+					<div>					
+						<div>
+							<div class="txtRED">IBAN</div>	
+							<div class="crta" style="width:65mm"></div>
+							<div class="txtRED" style="margin-left: 2mm;">POLOG</div>
+							<div class="crta" style="width:6.62mm; margin-left: 2mm;"></div>
+							<div class="txtRED" style="margin-left: 2mm;">DVIG</div>
+						</div>
+						<div>
+							<div class="IBAN" style="height:5mm;">
+								<input type="text" class="inputIBAN borderRED"></input>
+							</div>
+							<div>
+								<input type="checkbox" class="checkbuttons" name="pologdvig" value="polog"></input>
+								<div class="oznaka"></div>
+								<input type="checkbox" class="checkbuttons" name="pologdvig" value="dvig"></input>
+							</div>
+						</div>
+												
+						<div class="flt ">
+							<div class="txtRED">Referenca</div>
+							<div class="clrflt" style="width:15mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+							<div class="flt" style="width:82.5mm; margin-left: 2mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						</div>
+						
+						<div class="flt">
+							<div class="txtRED">Ime in naslov</div>
+							<div class="clrflt" style="width:99.5mm; height: 9mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						</div>
+						
+						<div class="flt">
+							<div class="txtRED">Koda namena</div>
+							<div class="clrflt" style="width:15mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						</div>
+						
+						<div class="flt margin margin3">
+							<div class="txtRED">Namen / rok plačila</div>
+							<div class="clrflt" style="width:112.5mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						</div>
+						
+						<div class="flt margin">
+							<div class="txtRED">Nujno</div>
+							<div class="check">
+								<input type="checkbox" style="margin-left: 1mm;" class="clrflt check" name="nujno" value="nujno"></input>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="desnisredina">
+			
+				<div>
+					<div>					
+						<div style="height: 12px" class="flt">
+							<div class="crta" style="width:12.35mm"> </div>
+							<div class="txtRED">Znesek</div>	
+							<div class="crta" style="width:34.4mm"></div>
+							<div class="txtRED" style="margin-left: 2mm;">Datum plačila</div>
+							<div class="crta" style="width:16.44mm; margin-left: 2mm;"></div>
+							<div class="txtRED" style="margin-left: 2mm;">BIC banke prejemnika</div>
+							<div class="crta" style="width:16mm; margin-left: 2mm;"></div>
+						</div>
+					</div>
+					
+					<div class="clrflt">
+						<div class="placnik" style="height:34mm;">
+							<div class="rotate">PREJEMNIK</div>
+						</div>
+					</div>
+					
+					<div>
+						<div class="EUR flt" style="margin-left: 1mm;">EUR</div>
+						<div class="flt" style="width:41.25mm; margin-left: 2mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						<div class="flt" style="width:30mm; margin-left: 5mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						<div class="flt" style="width:40mm; margin-left: 5mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						<div class="oznaka"></div>
+					</div>
+					
+					<div>
+						<div class="flt">
+							<div class="txtRED">IBAN</div>
+							<div class="clrflt" style="width:127.5mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+						</div>
+						<div>
+							<div class="txtRED" style="margin-left: 8mm;">Izjava</div>
+							<input type="checkbox" class="checkIzjava flt" name="izjava" value="true"></input>
+						</div>
+					</div>
+					
+					<div>
+						<div class="flt">
+							<div class="txtRED">Referenca</div>
+							<div class="clrflt" style="width:15mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+							<div class="flt margin" style="width:82.5mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+							<div class="EUR flt margin">UPN</div><div class="smallFont flt"> - Univerzalni plačilni nalog</div>
+						</div>
+					</div>
+					
+					<div>
+						<div class="flt">
+							<div class="txtRED">Ime in naslov</div>
+							<div class="clrflt" style="width:131.25mm; height: 9mm;"><input type="text" class="inputIBAN borderRED"></input></div>
+							<div class="oznaka margin"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="desnispodaj">
+					<div class="txtRED help" style="left:2.5mm;">Prosimo, ne pišite in ne žigosajte v tem prostoru</div>
+					<div class="txtRED help" style="left:113mm;">Obrazec UPN - Univerzalni plačilni nalog</div>
+			</div>
+		</div>
+	</form>
+	</body>
+</html>

@@ -1,0 +1,203 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#main{
+	width: 210mm;
+	height: 101.6mm;
+	background: white;
+	outline: 0.25pt solid black;
+	margin: 50px auto;
+}
+
+#levi{
+	width: 60mm;
+	height: 101.6mm;
+	background: white;
+	float: left;
+	font-family: NimbusSan Dee;
+	color: rgb(45, 41, 38);
+	outline: 0.25pt solid black;
+	position: relative;
+}
+
+#desnizgoraj{
+	height: 39mm;
+	width: 150mm;
+	background: rgba(255, 103, 77, 0.2);
+	float: left;
+	border-bottom: 0.25pt solid black;
+}
+
+#desnisredina{
+	height: 37.5mm;
+	width: 150mm;
+	background: rgba(255, 181, 17, 0.2);
+	float: left;
+	border-bottom: 0.25pt solid black;
+}
+
+#desnispodaj{
+	height: 25.1mm;
+	width: 150mm;
+	background: white;
+	float: left;
+    box-sizing:border-box;
+	background: rgba(255, 255, 255, 0);
+	position: relative;
+}
+
+.polje{
+	outline: 2pt double rgba(255, 103, 77, 0.7);
+	outline-offset: -2pt;
+	width: 43.5mm;
+	height: 28.5mm;
+	background: white;
+	float: right;
+	margin: 5px 4px 1px 1px;
+}
+
+.flt{
+	float: left;
+}
+
+.fltr{
+	float: right;
+}
+
+.clrflt{
+	clear: left;
+	float: left;
+}
+
+.margin{
+	margin-left: 4mm;
+}
+
+.margin2{
+	margin-left: -30px;;
+}
+
+.margin3{
+	margin-top: -2px;
+}
+
+.txt{
+	font-size: 10pt;
+	font-style: bold;
+	font-family: Nimbus;
+	padding: 0px;
+	margin: 0 0 0 4mm;
+}
+
+.txtRED{
+	line-height: 3.6mm;
+	font-family: Nimbus;
+	float: left;
+	font-size: 7pt;
+	font-style:bold;
+	color: rgb(255, 103, 77);
+	padding: 0px;
+}
+.EUR{
+	font-family: Nimbus;
+	font-size: 11pt;
+	font-style: bold;
+}
+
+.leviEUR{
+	clear: both;
+	padding: 0px;
+	margin: 0 0 0 8mm;
+}
+
+.znesek{
+	float: right;
+	margin-right: 35mm;
+}
+
+.help{
+	position: absolute; 
+	bottom: 0;
+	font-size: 6pt;
+}
+
+.smallFont{
+	font-size: 7pt;
+}
+
+.borderRED{
+	border: 1px solid rgb(255, 103, 77);
+}
+
+.input{
+	width: 53mm;
+	height: 9mm;
+	padding: 0px;
+	margin: 0 0 0 4mm;
+}
+
+.inputEUR{
+	width: 40mm;
+	height: 5mm;
+	margin-left: 4pt;
+	padding: 0px;
+}
+
+.inputIBAN{
+	width: 100%;
+	height: 100%;
+}
+
+.IBAN{
+	width: 71.25mm;
+	height: 5mm;
+	float: left;
+}
+
+.check{
+	height: 4mm;
+	width: 4mm;
+}
+
+.checkbuttons{
+	height: 4mm;
+	width: 4mm;
+	float: left;
+	margin: 1mm 0 0 5.5mm;
+}
+.checkIzjava{
+	height: 4mm;
+	width: 4mm;
+	margin: 2px 0mm 0mm 9mm;
+}
+
+.oznaka{
+	height: 2.54mm;
+	width: 2.54mm;
+	background: black;
+	float: left;
+	margin: 1.27mm 0 0 5mm;
+}
+
+.placnik{
+	height: 39mm;
+	width: 4mm;
+	font-family: Nimbus;
+	font-size: 7pt;
+	font-style:bold;
+	color: rgb(255, 103, 77);
+}
+
+.crta{
+	float: left;
+	height: 1mm;
+	background: rgb(255,103,77);
+	margin: 1mm;
+}
+
+.rotate{
+	margin-top: 20mm;
+	transform: rotate(-90deg);
+}
